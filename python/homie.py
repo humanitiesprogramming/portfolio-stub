@@ -1,4 +1,4 @@
-hilt_class=["Brandon", "Ethan", "Ashley"]
+hilt_class=["Brandon", "Ethan", "Princess Ashley"]
 for homie in hilt_class:
-    if homie == "Ashley":
+    if homie == "Princess Ashley":
         print("My name is " + homie + "!!!!!! Mothafuckazzz!!!!")
