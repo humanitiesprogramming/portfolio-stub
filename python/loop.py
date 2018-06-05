@@ -3,6 +3,6 @@ data=[]
 for x in list:
     data.append(x-10)
 
-data
+print(data)
 data=[x-10 for x in list]
-data
+print(data)
