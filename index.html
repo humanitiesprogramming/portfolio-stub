@@ -8,12 +8,44 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Ashley Chang</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    body {
+        margin: 0;
+        font-family: Franklin Gothic Medium;
+        font-size: 11px;
+    }
 
-    <!-- Custom styles for this template -->
-    <link href="css/starter-template.css" rel="stylesheet">
+    .sidenav {
+        height: 100%;
+        width: 500px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #F08080;
+        overflow-x: hidden;
+    }
+
+    .sidenav a {
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .sidenav a:hover {
+        color: #FFA07A;
+    }
+
+    .content {
+        margin-left: 500px;
+        padding-left: 20px;
+    }
+    </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -22,56 +54,15 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand">Ashley Chang</a>
-        </div>
-      </div>
-    </nav>
+    <div class="sidenav">
+      <a href="python/hello.py">python thing</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </div>
 
-    <div class="container">
-      <div class="starter-template">
-        <h1>The Most Beautiful Portfolio in All the Land</h1>
-        <p class="lead">(built with <a href="https://getbootstrap.com/docs/3.3/">Bootstrap</a>)
-      </div>
-      <div style="text-align: center ">
-
-    <!---Greetings HILT 2018 user! This is the section of this html file where
-    you will be loading your various projects from our class. For those unfamiliar
-    with HTML we've tried to make clear what should go where, but obviously
-    we will be happy to answer questions / go over all this stuff many times!
-    The general idea is this: save your .py file to the folder "python" within
-    this repository, then link to that file in the descriptions of each item within
-    this list. The for example, the first item with its link might look like this:
-
-    <p>With a description + link <a href="python/file1.py">here</a>.</p>
-
-    Then you would replace "With adescription + link" with whatever description
-    you wanted, and replacing the name of the file with whatever name you
-    want. Please ask if you have questions!!!-->
-
-        <h4>Your first project</h4>
-          <div class="text-muted">
-            <p>hello world<a href="python/hello.py">here</a>.</p>
-          </div>
-        <h4>Your second project</h4>
-          <div class="text-muted">
-            <p>With yet another description + link <a href="">here</a>.</p>
-          </div>
-        <h4>And so on</h4>
-          <div class="text-muted">
-            <p>And so on!</p>
-          </div>
-      </div>
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
+    <div class="content">
+      <h2>ASHLEY CHANG</h2>
+      <p>ashleydchang@gmail.com</p>
+    </div>
   </body>
 </html>
