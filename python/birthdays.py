@@ -2,7 +2,8 @@ birth_dates={"Sam Shepard": 1943,
 "Tennessee Williams": 1911,
 "Arthur Miller": 1915,
 "August Strindberg": 1849,
-"Henrik Ibsen": 1828}
+"Henrik Ibsen": 1828,
+}
 
 nineteenth_count=0
 twentieth_count=0
